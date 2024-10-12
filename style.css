@@ -1,0 +1,57 @@
+:root {
+    --bg-color: hsl(212, 45%, 89%);
+    --normal-color: hsl(216, 15%, 48%);
+    --title-color: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.card-img {
+    border-radius: 8px;
+}
+
+.qrcode-card {
+    width: 325px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card-title, .card-text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-title {
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.card-text {
+    color: var(--normal-color);
+    font-weight: 400;
+}
+
+
+
+
